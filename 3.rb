@@ -1,31 +1,39 @@
-# C major diatonic triads ascending and descending
+# Define and play chords in Sonic Pi
 
 use_bpm 120  # Set the beats per minute
 
-# Define the diatonic triads of the C major scale
-c_major_triad = [60, 64, 67]
-d_minor_triad = [62, 65, 69]
-e_minor_triad = [64, 67, 71]
-f_major_triad = [65, 69, 72]
-g_major_triad = [67, 71, 74]
-a_minor_triad = [69, 72, 76]
-b_diminished_triad = [71, 74, 77]
+# Define a C major chord
+c_major = chord(:c, :major)
 
-# Group the triads in an array
-triads = [c_major_triad, d_minor_triad, e_minor_triad, f_major_triad, g_major_triad, a_minor_triad, b_diminished_triad]
+# Define a D minor chord
+d_minor = chord(:d, :minor)
 
-# Play the ascending diatonic triads
-triads.each do |triad|
-  triad.each do |note|
-    play note  # Play each note in the triad
-  end
-  sleep 1  # Wait for 1 beat before playing the next triad
+# Define an E minor chord
+e_minor = chord(:e, :minor)
+
+# Define an F major chord
+f_major = chord(:f, :major)
+
+# Define a G major chord
+g_major = chord(:g, :major)
+
+# Define an A minor chord
+a_minor = chord(:a, :minor)
+
+# Define a B diminished chord
+b_diminished = chord(:b, :diminished)
+
+# Group the chords in an array
+chords = [c_major, d_minor, e_minor, f_major, g_major, a_minor, b_diminished]
+
+# Play the ascending diatonic chords
+chords.each do |chord|
+  play chord  # Play each chord
+  sleep 1  # Wait for 1 beat before playing the next chord
 end
 
-# Play the descending diatonic triads
-triads.reverse.each do |triad|
-  triad.each do |note|
-    play note  # Play each note in the triad
-  end
-  sleep 1  # Wait for 1 beat before playing the next triad
+# Play the descending diatonic chords
+chords.reverse.each do |chord|
+  play chord  # Play each chord
+  sleep 1  # Wait for 1 beat before playing the next chord
 end
