@@ -41,3 +41,16 @@ F major (F, A, C)
 G major (G, B, D)
 A minor (A, C, E)
 B diminished (B, D, F)
+
+Types of chords: TODO: Watch <https://www.youtube.com/watch?v=q6jn2Dg1S8Q>
+
+1. Major Chord - Play notes 1, 3 and 5. Sounds like a nice harmony.
+2. Minor Chord - Like Major Chord, but with a flat 3. Sounds ominous.
+3. Diminished Chord - Like Major Chord, but both the 3 and 5 are played flat. Sounds chilling.
+4. Augmented Chord - Like Major Chord, but with a sharp 5. Sounds suspenseful.
+5. Sus2 Chord - Play notes 1, 2 and 5. Sounds hopeful.
+6. Sus4 Chord - Play notes 1, 4 and 5. Sounds virtuous or victorious.
+7. Dom7 Chord - Play notes 1, 3, 5, and flat 7. It's the Barber-Shop Quartet!!!
+8. Maj7 Chord - Play notes 1, 3, 5 and 7. Sounds calming. I think of Steven Universe.
+9. Maj6 Chord - Play notes 1, 3, 5 and 6. Sounds inviting/charming.
+10. Min6th Chord - Minor Chord + Note 6. Sounds like something's just not right.
