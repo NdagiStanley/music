@@ -19,3 +19,25 @@ Thumb to pinky: 1 to 5
 On Chromatic scale: `1 3 1 3 1 2 3 1 3 1 3 1 2`
 
 On Diatonic scale: `1 2 3 1 2 3 4 5`
+
+## Chords
+
+A chord is a combination of **three or more** different pitches played simultaneously. Chords are typically named by their root note and their quality (major, minor, diminished, augmented, etc.).
+
+C major chord - Root position is when the name of the chord is the lowest tone on the chord. The thumb is on the lowest tone.
+
+C major chord - `1 3 5`
+
+> Contrast with triad: Triad, in music, a chord made up of **three tones**, called chord factors, of the diatonic scale: root, third, and fifth. The system of diatonic triads is the basis of tonal harmony in music
+>
+> Triad, subset of chord?
+
+Diatonic triads are chords built from each note of the diatonic scale, using only the notes within that scale. For the C major scale, the diatonic triads are as follows:
+
+C major (C, E, G)
+D minor (D, F, A)
+E minor (E, G, B)
+F major (F, A, C)
+G major (G, B, D)
+A minor (A, C, E)
+B diminished (B, D, F)
