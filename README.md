@@ -54,3 +54,19 @@ Types of chords: TODO: Watch <https://www.youtube.com/watch?v=q6jn2Dg1S8Q>
 8. Maj7 Chord - Play notes 1, 3, 5 and 7. Sounds calming. I think of Steven Universe.
 9. Maj6 Chord - Play notes 1, 3, 5 and 6. Sounds inviting/charming.
 10. Min6th Chord - Minor Chord + Note 6. Sounds like something's just not right.
+
+## Sonic PI notation
+
+Uses the MIDI note number system.
+
+`:d2` refers to the note D in the second octave
+
+### Notes
+
+`:c` represents note C
+
+### Octaves
+
+The number following the note symbol indicates the octave.
+
+`:c4` represents middle C (MIDI note 60), `:c3` is one octave below middle C, and `:c5` is one octave above middle C.

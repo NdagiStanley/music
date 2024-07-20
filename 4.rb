@@ -2,14 +2,14 @@ use_bpm 60  # Set the beats per minute
 
 # Define the chord progression for "Canon in D"
 chords = [
-  chord(:d, :major),
-  chord(:a, :major),
-  chord(:b, :minor),
-  chord(:fs, :minor),
-  chord(:g, :major),
-  chord(:d, :major),
-  chord(:g, :major),
-  chord(:a, :major)
+  chord(:d3, :major),
+  chord(:a3, :major),
+  chord(:b3, :minor),
+  chord(:fs3, :minor),
+  chord(:g3, :major),
+  chord(:d3, :major),
+  chord(:g3, :major),
+  chord(:a3, :major)
 ]
 
 # Define the bass line for "Canon in D"
