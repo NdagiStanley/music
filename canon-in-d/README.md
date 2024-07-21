@@ -21,6 +21,11 @@ Ref: Custom score from Musescore <https://musescore.com/user/33397673/pachelbel-
 - [PDF file](./Pachelbels_Canon_Canon_in_D.pdf) - To view and annotate
 - [MusicXML .mxl file](./Pachelbels_Canon_Canon_in_D.mxl) To import into notation software
 
+### Others
+
+- [Canon in D (Easy)](/canon-in-d/Easy/) - <https://musescore.com/user/3349846/scores/1376056>
+- [Canon in D (Intermediate)](/canon-in-d/Intermediate/) <https://musescore.com/user/1809056/scores/1019991>
+
 ## Key points
 
 Here are some key points about "Canon in D":
