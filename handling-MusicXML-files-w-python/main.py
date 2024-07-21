@@ -29,12 +29,6 @@ for part in parts:
                     repeat_buffer = []
                     in_repeat_section = True
                     sonic_pi_code.append("# Repeat start")
-                elif repeat.direction == 'end':
-                    if repeat_start is not None and in_repeat_section:
-                        sonic_pi_code.append("# Repeat end")
-                        sonic_pi_code.extend(repeat_buffer)
-                        repeat_start = None
-                        in_repeat_section = False
 
         for element in measure:
             sonic_pi_code.append(f"# ##### {element}")
@@ -62,6 +56,16 @@ for part in parts:
                 sonic_pi_code.append(sleep_line)
                 if in_repeat_section:
                     repeat_buffer.append(sleep_line)
+
+        if measure.hasElementOfClass(music21.bar.Repeat):
+            for repeat in measure.getElementsByClass(music21.bar.Repeat):
+                if repeat.direction == 'end':
+                    if repeat_start is not None and in_repeat_section:
+                        sonic_pi_code.append("# Repeat end")
+                        sonic_pi_code.extend(repeat_buffer)
+                        repeat_buffer.extend(repeat_buffer)  # Ensure the buffer is doubled for multiple repeats
+                        repeat_start = None
+                        in_repeat_section = False
 
     sonic_pi_code.append("  stop")
     sonic_pi_code.append("end")
