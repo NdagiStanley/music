@@ -805,6 +805,7 @@ live_loop :Piano do
   play :cs5
   sleep 0.25
 # ### <music21.stream.Measure 45 offset=176.0>
+# Repeat start
 # ##### <music21.bar.Repeat direction=start>
 # ##### <music21.note.Note D>
   play :d5
@@ -874,6 +875,49 @@ live_loop :Piano do
   play :cs5
   sleep 2.0
 # ##### <music21.bar.Repeat direction=end>
+# Repeat end
+  play :d5
+  sleep 1.5
+  play :a5
+  sleep 0.5
+  play :a5
+  sleep 0.5
+  play :b5
+  sleep 0.5
+  play :a5
+  sleep 0.5
+  play :g5
+  sleep 0.5
+  play :fs5
+  sleep 1.5
+  play :fs5
+  sleep 0.5
+  play :fs5
+  sleep 0.5
+  play :g5
+  sleep 0.5
+  play :fs5
+  sleep 0.5
+  play :e5
+  sleep 0.5
+  play :d5
+  sleep 1.5
+  play :d5
+  sleep 0.5
+  play :d5
+  sleep 1.0
+  play :a4
+  sleep 1.0
+  play :d5
+  sleep 0.5
+  play :c5
+  sleep 0.5
+  play :b4
+  sleep 0.5
+  play :c5
+  sleep 0.5
+  play :cs5
+  sleep 2.0
 # ### <music21.stream.Measure 49 offset=192.0>
 # ##### <music21.note.Note D>
   play :d5
@@ -1430,6 +1474,7 @@ live_loop :Piano do
   play :a2
   sleep 2.0
 # ### <music21.stream.Measure 45 offset=176.0>
+# Repeat start
 # ##### <music21.bar.Repeat direction=start>
 # ##### <music21.note.Note D>
   play :d3
@@ -1461,6 +1506,23 @@ live_loop :Piano do
   play :a2
   sleep 2.0
 # ##### <music21.bar.Repeat direction=end>
+# Repeat end
+  play :d3
+  sleep 2.0
+  play :a2
+  sleep 2.0
+  play :b2
+  sleep 2.0
+  play :fs2
+  sleep 2.0
+  play :g2
+  sleep 2.0
+  play :d2
+  sleep 2.0
+  play :g2
+  sleep 2.0
+  play :a2
+  sleep 2.0
 # ### <music21.stream.Measure 49 offset=192.0>
 # ##### <music21.note.Note D>
   play :d3

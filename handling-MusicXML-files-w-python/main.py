@@ -11,7 +11,7 @@ sonic_pi_code = []
 sonic_pi_code.append("use_bpm 100  # Set the beats per minute")
 
 for part in parts:
-    sonic_pi_code.append(f"# ### {part}")
+    # sonic_pi_code.append(f"# ### {part}")
     part_name = part.partName if part.partName else "melody"
     sonic_pi_code.append(f"live_loop :{part_name} do")
     measures = part.getElementsByClass(music21.stream.Measure)
@@ -20,7 +20,7 @@ for part in parts:
     in_repeat_section = False
 
     for measure in measures:
-        sonic_pi_code.append(f"# ### {measure}")
+        # sonic_pi_code.append(f"# ### {measure}")
 
         if measure.hasElementOfClass(music21.bar.Repeat):
             for repeat in measure.getElementsByClass(music21.bar.Repeat):
@@ -31,7 +31,7 @@ for part in parts:
                     sonic_pi_code.append("# Repeat start")
 
         for element in measure:
-            sonic_pi_code.append(f"# ##### {element}")
+            # sonic_pi_code.append(f"# ##### {element}")
             if isinstance(element, music21.note.Note):
                 code_line = f"  play :{element.pitch.nameWithOctave.lower().replace('#', 's')}"
                 sonic_pi_code.append(code_line)
