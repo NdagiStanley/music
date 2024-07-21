@@ -24,3 +24,14 @@ end
 live_loop :bass do
   play_sequence(bass_line)
 end
+
+# Define the melody for "Canon in D"
+melody_line = [:fs5, :e5, :d5, :cs5, :b4, :a4, :b4, :cs5]
+
+# Play the melody
+live_loop :melody do
+  melody_line.each do |note|
+    play note, release: 2
+    sleep 2
+  end
+end
