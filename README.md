@@ -161,3 +161,7 @@ I've tweaked a python script to do this - [Python script to handle MusicXML file
     Compare [XML file](/canon-in-d/Pachelbels_Canon_Canon_in_D.mxl) and [resultant SonicPI script](/canon-in-d/Pachelbels_Canon_Canon_in_D_MusicXML_to_SonicPI.rb)
 
     In depth, at measure 9 and 21 in [this SonicPI script](/canon-in-d/Pachelbels_Canon_Canon_in_D_with_measures_included.rb), (Notice the "melody" bit and the "bass" bit), it's not following the note progression as expected. Contrast that against [the MuseScore file](/canon-in-d/Pachelbels_Canon_Canon_in_D.mscz) OR [the MXL file](/canon-in-d/Pachelbels_Canon_Canon_in_D.mxl)
+
+    TODO: Fix this issue
+
+1. Rests and Repeats - need to be handled properly.
