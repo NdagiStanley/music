@@ -164,4 +164,6 @@ I've tweaked a python script to do this - [Python script to handle MusicXML file
 
     TODO: Fix this issue
 
-1. Rests and Repeats - need to be handled properly.
+1. Rests and Repeats - need to be handled properly
+
+1. live_loop naming. Naming the two live_loop as different variables works best. [Python script to handle MusicXML files](/handling-MusicXML-files-w-python/main.py) doesn't cover for this, at the moment.

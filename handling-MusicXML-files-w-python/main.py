@@ -1,7 +1,7 @@
 import music21
 
 # Load the MusicXML file
-file_path = '../canon-in-d/Easy/Canon_in_D_easy.mxl'
+file_path = '../canon-in-d/Intermediate/Canon_in_D.mxl'
 score = music21.converter.parse(file_path)
 
 # Extract notes, chords, rests, and repeat markers
@@ -11,7 +11,7 @@ sonic_pi_code = []
 sonic_pi_code.append("use_bpm 100  # Set the beats per minute")
 
 for part in parts:
-    # sonic_pi_code.append(f"# ### {part}")
+    sonic_pi_code.append(f"# ### {part}") # Maintain this for clarity
     part_name = part.partName if part.partName else "melody"
     sonic_pi_code.append(f"live_loop :{part_name} do")
     measures = part.getElementsByClass(music21.stream.Measure)
